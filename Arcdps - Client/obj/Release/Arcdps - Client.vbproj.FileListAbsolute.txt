@@ -1,0 +1,11 @@
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\bin\Release\Arcdps - Client.exe.config
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\bin\Release\Arcdps - Client.exe
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\bin\Release\Arcdps - Client.pdb
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\bin\Release\Arcdps - Client.xml
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps___Client.Form1.resources
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps___Client.Resources.resources
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps - Client.vbproj.GenerateResource.Cache
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps - Client.vbproj.CoreCompileInputs.cache
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps - Client.exe
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps - Client.xml
+C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Release\Arcdps - Client.pdb
