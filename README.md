@@ -2,9 +2,9 @@
 Control Client for one Klick Install and Delete
 
 # Start
-1: Download the lastes Release an save the .exe File
-2: Start the Tool and Select the Guild Wars 2 Main Folder. Example "E:\Program Files (x86)\Guild Wars 2" 
-3: Select the options Install/Delete and Have Fun
+1. Download the lastes Release an save the .exe File
+2. Start the Tool and Select the Guild Wars 2 Main Folder. Example "E:\Program Files (x86)\Guild Wars 2" 
+3. Select the options Install/Delete and Have Fun
 
 
 # Add a Issues (German)
@@ -31,3 +31,14 @@ Erzähle uns hier was eigentlich passieren sollte.
 3. Schritt  
 
 Thank you!
+
+
+## Credits
+```
+Slikerdev | Missvanii.6912
+```
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
