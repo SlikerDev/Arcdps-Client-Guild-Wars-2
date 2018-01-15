@@ -1,9 +1,13 @@
-# Arcdps-Client-Guild-Wars-2
-Arcdps Control Client | Guild Wars 2
+# Arcdps Client Guild-Wars-2
+Control Client for one Klick Install and Delete
+
+# Start
+1: Download the lastes Release an save the .exe File
+2: Start the Tool and Select the Guild Wars 2 Main Folder. Example "E:\Program Files (x86)\Guild Wars 2" 
+3: Select the options Install/Delete and Have Fun
 
 
-
-# Add a Issues
+# Add a Issues (German)
 <!--- (**********************************)
       (** Fill in the following fields **)
       (**********************************) --->
