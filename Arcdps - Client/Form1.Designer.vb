@@ -1,4 +1,4 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
@@ -86,8 +86,8 @@ Partial Class Form1
         '
         Me.ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
         Me.ToolStripStatusLabel4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(46, 17)
-        Me.ToolStripStatusLabel4.Text = "v0.0.0.1"
+        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(55, 17)
+        Me.ToolStripStatusLabel4.Text = "v0.1.0.1.5"
         Me.ToolStripStatusLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Button2
