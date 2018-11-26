@@ -35,12 +35,14 @@ Public Class Form1
             Try
                 IO.Directory.CreateDirectory(My.Settings.GW2folder & "\addons\arcdps")
                 My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/arcdps.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+                My.Computer.Network.DownloadFile("http://h2781494.stratoserver.net/arcdps_lang.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
             Catch ex As Exception
                 MsgBox("Ordner Konnte nicht Erstellt werden!")
             End Try
         End If
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll", My.Settings.GW2folder & "\bin64\d3d9.dll")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum", My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
+		My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/buildtemplates/d3d9_arcdps_buildtemplates.dll", My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
         MsgBox("Installation ist Fertig!")
     End Sub
 
@@ -48,10 +50,17 @@ Public Class Form1
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+		My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
         MsgBox("Deinstallation ist Fertig!")
     End Sub
 
     Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
         Process.Start("https://www.deltaconnected.com/arcdps/")
+    End Sub
+
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/arcdps.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+        My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll", My.Settings.GW2folder & "\bin64\d3d9.dll")
+        My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum", My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
     End Sub
 End Class
