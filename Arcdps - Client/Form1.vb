@@ -8,6 +8,7 @@ Imports System.Net
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ToolStripStatusLabel2.Text = My.Settings.GW2folder
+        FolderBrowserDialog1.SelectedPath = My.Settings.GW2folder
         If My.Computer.Network.IsAvailable Then
         Else
             MsgBox("Ich finde kein Internet...")
@@ -49,18 +50,31 @@ Public Class Form1
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
+        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
 		My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
         MsgBox("Deinstallation ist Fertig!")
     End Sub
 
-    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles LinkLabel1.LinkClicked
+    Private Sub LinkLabel1_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs)
         Process.Start("https://www.deltaconnected.com/arcdps/")
     End Sub
 
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
+        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
+        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/arcdps.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll", My.Settings.GW2folder & "\bin64\d3d9.dll")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum", My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
+        MsgBox("ArcDPS is now UptoDate!")
+    End Sub
+
+    Private Sub InfoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem.Click
+        Info.Show()
+    End Sub
+
+    Private Sub VersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VersionToolStripMenuItem.Click
+        MsgBox("This is the Version 0.1.0.2.5")
     End Sub
 End Class
