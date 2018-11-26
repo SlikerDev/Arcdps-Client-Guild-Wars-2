@@ -37,6 +37,7 @@ Partial Class Form1
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.StatusStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -86,8 +87,8 @@ Partial Class Form1
         '
         Me.ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
         Me.ToolStripStatusLabel4.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(55, 17)
-        Me.ToolStripStatusLabel4.Text = "v0.1.0.1.5"
+        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(46, 17)
+        Me.ToolStripStatusLabel4.Text = "v0.1.0.2"
         Me.ToolStripStatusLabel4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Button2
@@ -101,7 +102,7 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(291, 12)
+        Me.Button3.Location = New System.Drawing.Point(392, 12)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(112, 45)
         Me.Button3.TabIndex = 4
@@ -122,9 +123,9 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 29)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(125, 13)
+        Me.Label2.Size = New System.Drawing.Size(92, 13)
         Me.Label2.TabIndex = 6
-        Me.Label2.Text = "2: Select Install or Delete"
+        Me.Label2.Text = "2: Select a Option"
         '
         'BackgroundWorker1
         '
@@ -134,7 +135,7 @@ Partial Class Form1
         'LinkLabel1
         '
         Me.LinkLabel1.AutoSize = True
-        Me.LinkLabel1.Location = New System.Drawing.Point(423, 29)
+        Me.LinkLabel1.Location = New System.Drawing.Point(527, 28)
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(98, 13)
         Me.LinkLabel1.TabIndex = 7
@@ -151,12 +152,22 @@ Partial Class Form1
         Me.WebBrowser1.TabIndex = 8
         Me.WebBrowser1.Url = New System.Uri("https://www.deltaconnected.com/arcdps/", System.UriKind.Absolute)
         '
+        'Button4
+        '
+        Me.Button4.Location = New System.Drawing.Point(274, 12)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(112, 45)
+        Me.Button4.TabIndex = 9
+        Me.Button4.Text = "Update ArcDPS"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(783, 377)
+        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.Label2)
@@ -171,6 +182,7 @@ Partial Class Form1
         Me.MinimizeBox = False
         Me.Name = "Form1"
         Me.ShowIcon = False
+        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ArcDPS - Client"
         Me.StatusStrip1.ResumeLayout(False)
@@ -194,4 +206,5 @@ Partial Class Form1
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents LinkLabel1 As LinkLabel
     Friend WithEvents WebBrowser1 As WebBrowser
+    Friend WithEvents Button4 As Button
 End Class
