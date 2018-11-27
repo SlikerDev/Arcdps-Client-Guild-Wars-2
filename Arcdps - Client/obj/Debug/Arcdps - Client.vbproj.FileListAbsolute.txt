@@ -21,3 +21,7 @@ C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Ar
 C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Debug\Arcdps - Client.exe
 C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Debug\Arcdps - Client.xml
 C:\Users\Sliker-Network\Documents\Visual Studio 2017\Projects\Arcdps - Client\Arcdps - Client\obj\Debug\Arcdps - Client.pdb
+C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.vbprojAssemblyReference.cache
+C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.exe
+C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.xml
+C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.pdb

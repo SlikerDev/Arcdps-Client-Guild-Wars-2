@@ -1,3 +1,3 @@
-Public Class Info
+﻿Public Class Info
 
 End Class
