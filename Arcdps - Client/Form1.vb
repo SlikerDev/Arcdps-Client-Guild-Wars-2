@@ -6,7 +6,13 @@ Imports System.Collections
 Imports System.Net
 
 Public Class Form1
+    Dim locat As String = System.Reflection.Assembly.GetEntryAssembly.Location
+    Dim MyDirectory As String = System.IO.Path.GetDirectoryName(locat)
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If File.Exists(MyDirectory + "\" + Me.ProductName + ".old") Then
+            File.Delete(MyDirectory + "\" + Me.ProductName + ".old")
+        End If
         ToolStripStatusLabel2.Text = My.Settings.GW2folder
         FolderBrowserDialog1.SelectedPath = My.Settings.GW2folder
         If My.Computer.Network.IsAvailable Then
@@ -43,7 +49,7 @@ Public Class Form1
         End If
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll", My.Settings.GW2folder & "\bin64\d3d9.dll")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum", My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
-		My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/buildtemplates/d3d9_arcdps_buildtemplates.dll", My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
+        My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/buildtemplates/d3d9_arcdps_buildtemplates.dll", My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
         MsgBox("Installation ist Fertig!")
     End Sub
 
@@ -52,7 +58,7 @@ Public Class Form1
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
         My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
-		My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
+        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
         MsgBox("Deinstallation ist Fertig!")
     End Sub
 
@@ -75,6 +81,6 @@ Public Class Form1
     End Sub
 
     Private Sub VersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VersionToolStripMenuItem.Click
-        MsgBox("This is the Version 0.1.0.2.5")
+        Arcdps___Client.Update.Show()
     End Sub
 End Class
