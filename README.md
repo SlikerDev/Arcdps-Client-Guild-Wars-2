@@ -7,6 +7,9 @@ ArcDPS Tool BY: https://www.deltaconnected.com/arcdps/
 2. Start the Tool and Select the Guild Wars 2 Main Folder. Example "E:\Program Files (x86)\Guild Wars 2" 
 3. Select the options Install/Delete and Have Fun
 
+# Youtube Video (Germany)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ShK5UXkQhGY/0.jpg)](https://www.youtube.com/watch?v=ShK5UXkQhGY "Guild Wars 2 - ArcDPS-Client")
+
 
 # Add a Issues (German)
 <!--- (**********************************)
