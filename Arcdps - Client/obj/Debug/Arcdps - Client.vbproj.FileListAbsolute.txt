@@ -25,3 +25,16 @@ C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Clien
 C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.exe
 C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.xml
 C:\Users\Sliker-Network\Downloads\Arcdps-Client-Guild-Wars-2-master\Arcdps-Client-Guild-Wars-2-master\Arcdps - Client\obj\Debug\Arcdps - Client.pdb
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.exe.config
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.exe
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.pdb
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.xml
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Form1.resources
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Info.resources
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Resources.resources
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Update.resources
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps - Client.vbproj.GenerateResource.cache
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps - Client.vbproj.CoreCompileInputs.cache
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.exe
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.xml
+C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.pdb

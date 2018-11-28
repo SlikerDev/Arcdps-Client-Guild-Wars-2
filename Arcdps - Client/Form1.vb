@@ -75,12 +75,28 @@ Public Class Form1
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum", My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
         MsgBox("ArcDPS is now UptoDate!")
     End Sub
+    'Info Menü
+    Private Sub BugMeldenToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BugMeldenToolStripMenuItem.Click
+        Process.Start("https://github.com/sliker2013/Arcdps-Client-Guild-Wars-2/issues")
+    End Sub
 
-    Private Sub InfoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem.Click
+    Private Sub InfoToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem1.Click
         Info.Show()
     End Sub
 
-    Private Sub VersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VersionToolStripMenuItem.Click
+    Private Sub SucheNachUpdatesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SucheNachUpdatesToolStripMenuItem.Click
         Arcdps___Client.Update.Show()
+    End Sub
+    'Start Menü
+    Private Sub InfoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem.Click
+        Process.Start("https://www.deltaconnected.com/arcdps/")
+    End Sub
+
+    Private Sub VersionToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VersionToolStripMenuItem.Click
+        Process.Start("https://github.com/sliker2013/Arcdps-Client-Guild-Wars-2")
+    End Sub
+
+    Private Sub SchließenToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SchließenToolStripMenuItem.Click
+        Application.Exit()
     End Sub
 End Class
