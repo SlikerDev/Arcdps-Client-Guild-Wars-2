@@ -80,8 +80,7 @@ Public Class Form1
     End Sub
     'To Rework
     Private Sub SucheNachUpdatesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SucheNachUpdatesToolStripMenuItem.Click
-        MsgBox("in Überarbeitung!")
-        'Arcdps___Client.Update.Show()
+        Arcdps___Client.Update.Show()
     End Sub
     'Start Menü
     Private Sub InfoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem.Click
