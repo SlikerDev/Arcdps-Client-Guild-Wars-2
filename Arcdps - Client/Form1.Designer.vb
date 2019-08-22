@@ -166,24 +166,24 @@ Partial Class Form1
         'InfoToolStripMenuItem
         '
         Me.InfoToolStripMenuItem.Name = "InfoToolStripMenuItem"
-        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.InfoToolStripMenuItem.Text = "ArcDPS Homepage"
         '
         'VersionToolStripMenuItem
         '
         Me.VersionToolStripMenuItem.Name = "VersionToolStripMenuItem"
-        Me.VersionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.VersionToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.VersionToolStripMenuItem.Text = "Github"
         '
         'ToolStripMenuItem2
         '
         Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(172, 6)
         '
         'SchließenToolStripMenuItem
         '
         Me.SchließenToolStripMenuItem.Name = "SchließenToolStripMenuItem"
-        Me.SchließenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SchließenToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
         Me.SchließenToolStripMenuItem.Text = "Schließen"
         '
         'ToolStripMenuItem1

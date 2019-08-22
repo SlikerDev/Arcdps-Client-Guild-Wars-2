@@ -78,9 +78,10 @@ Public Class Form1
     Private Sub InfoToolStripMenuItem1_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem1.Click
         Info.Show()
     End Sub
-
+    'To Rework
     Private Sub SucheNachUpdatesToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SucheNachUpdatesToolStripMenuItem.Click
-        Arcdps___Client.Update.Show()
+        MsgBox("in Überarbeitung!")
+        'Arcdps___Client.Update.Show()
     End Sub
     'Start Menü
     Private Sub InfoToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles InfoToolStripMenuItem.Click
@@ -93,5 +94,9 @@ Public Class Form1
 
     Private Sub SchließenToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SchließenToolStripMenuItem.Click
         Application.Exit()
+    End Sub
+
+    Private Sub ToolStripStatusLabel2_Click(sender As Object, e As EventArgs) Handles ToolStripStatusLabel2.Click
+        Process.Start("explorer.exe", My.Settings.GW2folder)
     End Sub
 End Class
