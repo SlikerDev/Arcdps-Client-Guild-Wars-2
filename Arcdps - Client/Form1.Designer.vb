@@ -40,15 +40,14 @@ Partial Class Form1
         Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VersionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.SchließenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.InfoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.BugMeldenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripSeparator()
         Me.SucheNachUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.SchließenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripSeparator()
         Me.StatusStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -136,7 +135,7 @@ Partial Class Form1
         Me.WebBrowser1.ScriptErrorsSuppressed = True
         Me.WebBrowser1.Size = New System.Drawing.Size(665, 279)
         Me.WebBrowser1.TabIndex = 8
-        Me.WebBrowser1.Url = New System.Uri("http://h2781494.stratoserver.net/arcdps/main.html", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("https://www.deltaconnected.com/arcdps/", System.UriKind.Absolute)
         '
         'Button4
         '
@@ -159,7 +158,7 @@ Partial Class Form1
         '
         'MainToolStripMenuItem
         '
-        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InfoToolStripMenuItem, Me.VersionToolStripMenuItem, Me.ToolStripMenuItem3, Me.ToolStripMenuItem2, Me.SchließenToolStripMenuItem})
+        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InfoToolStripMenuItem, Me.VersionToolStripMenuItem, Me.ToolStripMenuItem2, Me.SchließenToolStripMenuItem})
         Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
         Me.MainToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
         Me.MainToolStripMenuItem.Text = "Start"
@@ -175,6 +174,17 @@ Partial Class Form1
         Me.VersionToolStripMenuItem.Name = "VersionToolStripMenuItem"
         Me.VersionToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VersionToolStripMenuItem.Text = "Github"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
+        '
+        'SchließenToolStripMenuItem
+        '
+        Me.SchließenToolStripMenuItem.Name = "SchließenToolStripMenuItem"
+        Me.SchließenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SchließenToolStripMenuItem.Text = "Schließen"
         '
         'ToolStripMenuItem1
         '
@@ -195,32 +205,16 @@ Partial Class Form1
         Me.BugMeldenToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
         Me.BugMeldenToolStripMenuItem.Text = "Bug melden"
         '
+        'ToolStripMenuItem4
+        '
+        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(178, 6)
+        '
         'SucheNachUpdatesToolStripMenuItem
         '
         Me.SucheNachUpdatesToolStripMenuItem.Name = "SucheNachUpdatesToolStripMenuItem"
         Me.SucheNachUpdatesToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
         Me.SucheNachUpdatesToolStripMenuItem.Text = "Suche nach Updates"
-        '
-        'ToolStripMenuItem3
-        '
-        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
-        '
-        'SchließenToolStripMenuItem
-        '
-        Me.SchließenToolStripMenuItem.Name = "SchließenToolStripMenuItem"
-        Me.SchließenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.SchließenToolStripMenuItem.Text = "Schließen"
-        '
-        'ToolStripMenuItem2
-        '
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(177, 6)
-        '
-        'ToolStripMenuItem4
-        '
-        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(178, 6)
         '
         'Form1
         '
@@ -243,8 +237,6 @@ Partial Class Form1
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
-        Me.ShowIcon = False
-        Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ArcDPS - Client"
         Me.StatusStrip1.ResumeLayout(False)
@@ -277,7 +269,6 @@ Partial Class Form1
     Friend WithEvents InfoToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents BugMeldenToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SucheNachUpdatesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents SchließenToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents ToolStripMenuItem2 As ToolStripSeparator
     Friend WithEvents ToolStripMenuItem4 As ToolStripSeparator
