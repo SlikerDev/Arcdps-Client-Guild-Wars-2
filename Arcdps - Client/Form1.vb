@@ -37,7 +37,7 @@ Public Class Form1
             Try
                 IO.Directory.CreateDirectory(My.Settings.GW2folder & "\addons\arcdps")
                 My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/arcdps.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
-                My.Computer.Network.DownloadFile("https://raw.githubusercontent.com/sliker2013/Arcdps-Client-Guild-Wars-2/master/arcdps_lang.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
+                My.Computer.Network.DownloadFile("https://raw.githubusercontent.com/sliker2013/Arcdps-Client-Guild-Wars-2/master/Files/arcdps_lang.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
             Catch ex As Exception
                 MsgBox("Ordner Konnte nicht Erstellt werden!")
             End Try

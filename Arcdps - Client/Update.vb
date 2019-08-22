@@ -1,8 +1,4 @@
-﻿Imports System
-Imports System.Drawing
-Imports System.Windows.Forms
-Imports System.IO
-Imports System.Collections
+﻿Imports System.IO
 Imports System.Net
 
 Public Class Update
@@ -18,7 +14,7 @@ Public Class Update
         Label4.Text = Me.ProductVersion
         Try
             Dim instance As WebClient = New WebClient
-            Dim address As String = "http://h2781494.stratoserver.net/arcdps/version.txt"
+            Dim address As String = "https://raw.githubusercontent.com/sliker2013/Arcdps-Client-Guild-Wars-2/master/Files/version.txt"
             Dim returnValue As String
             returnValue = instance.DownloadString(address)
             Label5.Text = returnValue
@@ -35,7 +31,7 @@ Public Class Update
     'UPDATE FUNKUTION Self
     Private Sub BackgroundWorker1_DoWork(ByVal sender As System.Object, ByVal e As System.ComponentModel.DoWorkEventArgs) Handles BackgroundWorker1.DoWork
         Try
-            link = "http://h2781494.stratoserver.net/arcdps/Arcdps-Client.exe"
+            link = "https://raw.githubusercontent.com/sliker2013/Arcdps-Client-Guild-Wars-2/master/Files/Arcdps-Client.exe"
             Dim size1 As Integer
             Dim wr As WebRequest
             wr = WebRequest.Create(link)
@@ -45,7 +41,7 @@ Public Class Update
             size1 = size1 / 1024
             ProgressBar1.Maximum = size1
             totalsize = size1
-            My.Computer.Network.DownloadFile("http://h2781494.stratoserver.net/arcdps/Arcdps-Client.exe", MyDirectory + "\" + Me.ProductName + ".exe")
+            My.Computer.Network.DownloadFile("https://raw.githubusercontent.com/sliker2013/Arcdps-Client-Guild-Wars-2/master/Files/Arcdps-Client.exe", MyDirectory + "\" + Me.ProductName + ".exe")
         Catch ex As Exception
 
         End Try
