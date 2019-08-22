@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("Arcdps-Client")>
-<Assembly: AssemblyCopyright("Copyright © SlikerDev 2018")>
+<Assembly: AssemblyCopyright("Copyright © SlikerDev 2018 - 2019")>
 <Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' übernehmen, indem Sie "*" eingeben:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.6")>
-<Assembly: AssemblyFileVersion("1.0.0.6")>
+<Assembly: AssemblyVersion("1.0.0.7")>
+<Assembly: AssemblyFileVersion("1.0.0.7")>
