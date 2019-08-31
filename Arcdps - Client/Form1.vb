@@ -16,6 +16,7 @@ Public Class Form1
         End If
     End Sub
 
+    'Select
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         If (FolderBrowserDialog1.ShowDialog() = DialogResult.OK) Then
             ToolStripStatusLabel2.Text = FolderBrowserDialog1.SelectedPath
@@ -24,6 +25,7 @@ Public Class Form1
         End If
     End Sub
 
+    'Install
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If Not IO.Directory.Exists(My.Application.Info.DirectoryPath & "\addons") Then
             Try
@@ -48,12 +50,27 @@ Public Class Form1
         MsgBox("Installation ist Fertig!")
     End Sub
 
+    'Delete
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\bin64\d3d9.dll") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9_arcdps_buildtemplates.dll")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
+        End If
         MsgBox("Deinstallation ist Fertig!")
     End Sub
 
@@ -61,11 +78,26 @@ Public Class Form1
         Process.Start("https://www.deltaconnected.com/arcdps/")
     End Sub
 
+    'Update
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
-        My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\bin64\d3d9.dll") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll")
+        End If
+
+        If My.Computer.FileSystem.FileExists(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum") = True Then
+            My.Computer.FileSystem.DeleteFile(My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
+        End If
+
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/arcdps.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps.ini")
+        My.Computer.Network.DownloadFile("https://raw.githubusercontent.com/sliker2013/Arcdps-Client-Guild-Wars-2/master/Files/arcdps_lang.ini", My.Settings.GW2folder & "\addons\arcdps\arcdps_lang.ini")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll", My.Settings.GW2folder & "\bin64\d3d9.dll")
         My.Computer.Network.DownloadFile("https://www.deltaconnected.com/arcdps/x64/d3d9.dll.md5sum", My.Settings.GW2folder & "\bin64\d3d9.dll.md5sum")
         MsgBox("ArcDPS is now UptoDate!")

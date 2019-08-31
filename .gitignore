@@ -292,3 +292,5 @@ Arcdps - Client/obj/Release/Arcdps - Client.vbproj.GenerateResource.Cache
 Arcdps - Client/obj/Release/Arcdps - Client.vbproj.FileListAbsolute.txt
 Arcdps - Client/obj/Release/Arcdps - Client.vbproj.CoreCompileInputs.cache
 Arcdps - Client/obj/Debug/Arcdps - Client.vbproj.CoreCompileInputs.cache
+*.xml
+*.config
