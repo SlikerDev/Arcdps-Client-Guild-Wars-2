@@ -9,7 +9,7 @@ Imports System.Runtime.InteropServices
 ' Werte der Assemblyattribute überprüfen
 
 <Assembly: AssemblyTitle("Arcdps-Client")>
-<Assembly: AssemblyDescription("")>
+<Assembly: AssemblyDescription("Control Client for one Klick Install, Update and Delete ArcDPS Tool")>
 <Assembly: AssemblyCompany("")>
 <Assembly: AssemblyProduct("Arcdps-Client")>
 <Assembly: AssemblyCopyright("Copyright © SlikerDev 2018 - 2019")>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' übernehmen, indem Sie "*" eingeben:
 ' <Assembly: AssemblyVersion("1.0.*")>
 
-<Assembly: AssemblyVersion("1.0.0.9")>
-<Assembly: AssemblyFileVersion("1.0.0.9")>
+<Assembly: AssemblyVersion("2.0.0.0")>
+<Assembly: AssemblyFileVersion("2.0.0.0")>

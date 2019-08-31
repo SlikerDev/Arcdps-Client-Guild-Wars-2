@@ -35,7 +35,7 @@ Partial Class Info
         Me.WebBrowser1.ScriptErrorsSuppressed = True
         Me.WebBrowser1.Size = New System.Drawing.Size(800, 450)
         Me.WebBrowser1.TabIndex = 0
-        Me.WebBrowser1.Url = New System.Uri("http://h2781494.stratoserver.net/arcdps/", System.UriKind.Absolute)
+        Me.WebBrowser1.Url = New System.Uri("https://github.com/sliker2013/Arcdps-Client-Guild-Wars-2/blob/master/README.md", System.UriKind.Absolute)
         '
         'Info
         '

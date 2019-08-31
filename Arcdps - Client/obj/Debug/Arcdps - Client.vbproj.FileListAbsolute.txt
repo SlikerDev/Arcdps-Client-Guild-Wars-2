@@ -38,3 +38,17 @@ C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Cli
 C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.exe
 C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.xml
 C:\Users\Sliker-Network\Documents\GitHub\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.pdb
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.exe.config
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.exe
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.pdb
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\bin\Debug\Arcdps-Client.xml
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps - Client.vbprojAssemblyReference.cache
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Form1.resources
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Info.resources
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Resources.resources
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps___Client.Update.resources
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps - Client.vbproj.GenerateResource.cache
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps - Client.vbproj.CoreCompileInputs.cache
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.exe
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.xml
+C:\Users\SlikerDev\Source\Repos\sliker2013\Arcdps-Client-Guild-Wars-2\Arcdps - Client\obj\Debug\Arcdps-Client.pdb

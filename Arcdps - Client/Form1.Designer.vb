@@ -25,102 +25,32 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
-        Me.ToolStripStatusLabel2 = New System.Windows.Forms.ToolStripStatusLabel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
-        Me.MainToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InfoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VersionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripSeparator()
-        Me.SchließenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.InfoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BugMeldenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripMenuItem4 = New System.Windows.Forms.ToolStripSeparator()
-        Me.SucheNachUpdatesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.StatusStrip1.SuspendLayout()
-        Me.MenuStrip1.SuspendLayout()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox6 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox8 = New System.Windows.Forms.PictureBox()
+        Me.LinkLabel1 = New System.Windows.Forms.LinkLabel()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'FolderBrowserDialog1
         '
         Me.FolderBrowserDialog1.ShowNewFolderButton = False
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(541, 42)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(112, 42)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "GW 2 Ordner Auswählen"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'ToolStripStatusLabel1
-        '
-        Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(75, 17)
-        Me.ToolStripStatusLabel1.Text = "GW2 Ordner:"
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.BackColor = System.Drawing.Color.Transparent
-        Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2})
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 369)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(665, 22)
-        Me.StatusStrip1.TabIndex = 2
-        Me.StatusStrip1.Text = "StatusStrip1"
-        '
-        'ToolStripStatusLabel2
-        '
-        Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(0, 17)
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(179, 41)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(112, 45)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "ArcDPS Installieren"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
-        'Button3
-        '
-        Me.Button3.Location = New System.Drawing.Point(415, 41)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(112, 45)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "ArcDPS Löschen"
-        Me.Button3.UseVisualStyleBackColor = True
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 41)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(159, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "1: Wähle dein GW2 Ordner aus!"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(12, 56)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(107, 13)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "2: Wähle eine Option"
         '
         'BackgroundWorker1
         '
@@ -129,147 +59,159 @@ Partial Class Form1
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 87)
+        Me.WebBrowser1.Location = New System.Drawing.Point(12, 43)
         Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
         Me.WebBrowser1.Name = "WebBrowser1"
         Me.WebBrowser1.ScriptErrorsSuppressed = True
-        Me.WebBrowser1.Size = New System.Drawing.Size(665, 279)
+        Me.WebBrowser1.Size = New System.Drawing.Size(936, 386)
         Me.WebBrowser1.TabIndex = 8
         Me.WebBrowser1.Url = New System.Uri("https://www.deltaconnected.com/arcdps/", System.UriKind.Absolute)
         '
-        'Button4
+        'TextBox1
         '
-        Me.Button4.Location = New System.Drawing.Point(297, 41)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(112, 45)
-        Me.Button4.TabIndex = 9
-        Me.Button4.Text = "ArcDPS Updaten"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.CausesValidation = False
+        Me.TextBox1.Location = New System.Drawing.Point(151, 539)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.ShortcutsEnabled = False
+        Me.TextBox1.Size = New System.Drawing.Size(571, 13)
+        Me.TextBox1.TabIndex = 10
         '
-        'MenuStrip1
+        'PictureBox1
         '
-        Me.MenuStrip1.BackColor = System.Drawing.Color.Transparent
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MainToolStripMenuItem, Me.ToolStripMenuItem1})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(665, 24)
-        Me.MenuStrip1.TabIndex = 11
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Image = Global.Arcdps___Client.My.Resources.Resources._select
+        Me.PictureBox1.Location = New System.Drawing.Point(728, 531)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(32, 25)
+        Me.PictureBox1.TabIndex = 11
+        Me.PictureBox1.TabStop = False
         '
-        'MainToolStripMenuItem
+        'PictureBox2
         '
-        Me.MainToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InfoToolStripMenuItem, Me.VersionToolStripMenuItem, Me.ToolStripMenuItem2, Me.SchließenToolStripMenuItem})
-        Me.MainToolStripMenuItem.Name = "MainToolStripMenuItem"
-        Me.MainToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
-        Me.MainToolStripMenuItem.Text = "Start"
+        Me.PictureBox2.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox2.Location = New System.Drawing.Point(150, 485)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(159, 40)
+        Me.PictureBox2.TabIndex = 12
+        Me.PictureBox2.TabStop = False
         '
-        'InfoToolStripMenuItem
+        'PictureBox3
         '
-        Me.InfoToolStripMenuItem.Name = "InfoToolStripMenuItem"
-        Me.InfoToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.InfoToolStripMenuItem.Text = "ArcDPS Homepage"
+        Me.PictureBox3.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox3.Location = New System.Drawing.Point(-3, 0)
+        Me.PictureBox3.Name = "PictureBox3"
+        Me.PictureBox3.Size = New System.Drawing.Size(964, 41)
+        Me.PictureBox3.TabIndex = 13
+        Me.PictureBox3.TabStop = False
         '
-        'VersionToolStripMenuItem
+        'PictureBox4
         '
-        Me.VersionToolStripMenuItem.Name = "VersionToolStripMenuItem"
-        Me.VersionToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.VersionToolStripMenuItem.Text = "Github"
+        Me.PictureBox4.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox4.Location = New System.Drawing.Point(894, 6)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(23, 23)
+        Me.PictureBox4.TabIndex = 14
+        Me.PictureBox4.TabStop = False
         '
-        'ToolStripMenuItem2
+        'PictureBox5
         '
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(172, 6)
+        Me.PictureBox5.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox5.Location = New System.Drawing.Point(925, 6)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(23, 23)
+        Me.PictureBox5.TabIndex = 15
+        Me.PictureBox5.TabStop = False
         '
-        'SchließenToolStripMenuItem
+        'PictureBox6
         '
-        Me.SchließenToolStripMenuItem.Name = "SchließenToolStripMenuItem"
-        Me.SchließenToolStripMenuItem.Size = New System.Drawing.Size(175, 22)
-        Me.SchließenToolStripMenuItem.Text = "Schließen"
+        Me.PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox6.Location = New System.Drawing.Point(357, 484)
+        Me.PictureBox6.Name = "PictureBox6"
+        Me.PictureBox6.Size = New System.Drawing.Size(159, 40)
+        Me.PictureBox6.TabIndex = 16
+        Me.PictureBox6.TabStop = False
         '
-        'ToolStripMenuItem1
+        'PictureBox7
         '
-        Me.ToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.InfoToolStripMenuItem1, Me.BugMeldenToolStripMenuItem, Me.ToolStripMenuItem4, Me.SucheNachUpdatesToolStripMenuItem})
-        Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(24, 20)
-        Me.ToolStripMenuItem1.Text = "?"
+        Me.PictureBox7.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox7.Location = New System.Drawing.Point(563, 484)
+        Me.PictureBox7.Name = "PictureBox7"
+        Me.PictureBox7.Size = New System.Drawing.Size(159, 40)
+        Me.PictureBox7.TabIndex = 17
+        Me.PictureBox7.TabStop = False
         '
-        'InfoToolStripMenuItem1
+        'PictureBox8
         '
-        Me.InfoToolStripMenuItem1.Name = "InfoToolStripMenuItem1"
-        Me.InfoToolStripMenuItem1.Size = New System.Drawing.Size(181, 22)
-        Me.InfoToolStripMenuItem1.Text = "Info"
+        Me.PictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox8.Location = New System.Drawing.Point(810, 455)
+        Me.PictureBox8.Name = "PictureBox8"
+        Me.PictureBox8.Size = New System.Drawing.Size(127, 86)
+        Me.PictureBox8.TabIndex = 18
+        Me.PictureBox8.TabStop = False
         '
-        'BugMeldenToolStripMenuItem
+        'LinkLabel1
         '
-        Me.BugMeldenToolStripMenuItem.Name = "BugMeldenToolStripMenuItem"
-        Me.BugMeldenToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
-        Me.BugMeldenToolStripMenuItem.Text = "Bug melden"
-        '
-        'ToolStripMenuItem4
-        '
-        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(178, 6)
-        '
-        'SucheNachUpdatesToolStripMenuItem
-        '
-        Me.SucheNachUpdatesToolStripMenuItem.Name = "SucheNachUpdatesToolStripMenuItem"
-        Me.SucheNachUpdatesToolStripMenuItem.Size = New System.Drawing.Size(181, 22)
-        Me.SucheNachUpdatesToolStripMenuItem.Text = "Suche nach Updates"
+        Me.LinkLabel1.AutoSize = True
+        Me.LinkLabel1.BackColor = System.Drawing.Color.Transparent
+        Me.LinkLabel1.LinkColor = System.Drawing.Color.White
+        Me.LinkLabel1.Location = New System.Drawing.Point(34, 511)
+        Me.LinkLabel1.Name = "LinkLabel1"
+        Me.LinkLabel1.Size = New System.Drawing.Size(0, 13)
+        Me.LinkLabel1.TabIndex = 19
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(665, 391)
-        Me.Controls.Add(Me.Button4)
+        Me.BackColor = System.Drawing.Color.LightGray
+        Me.BackgroundImage = Global.Arcdps___Client.My.Resources.Resources.IBG
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.ClientSize = New System.Drawing.Size(960, 560)
+        Me.Controls.Add(Me.LinkLabel1)
+        Me.Controls.Add(Me.PictureBox8)
+        Me.Controls.Add(Me.PictureBox7)
+        Me.Controls.Add(Me.PictureBox6)
+        Me.Controls.Add(Me.PictureBox5)
+        Me.Controls.Add(Me.PictureBox4)
+        Me.Controls.Add(Me.PictureBox3)
+        Me.Controls.Add(Me.PictureBox2)
+        Me.Controls.Add(Me.PictureBox1)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.WebBrowser1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.StatusStrip1)
-        Me.Controls.Add(Me.MenuStrip1)
-        Me.Controls.Add(Me.Button1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
-        Me.MainMenuStrip = Me.MenuStrip1
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ArcDPS - Client"
-        Me.StatusStrip1.ResumeLayout(False)
-        Me.StatusStrip1.PerformLayout()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
-    Friend WithEvents Button1 As Button
-    Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
-    Friend WithEvents StatusStrip1 As StatusStrip
-    Friend WithEvents ToolStripStatusLabel2 As ToolStripStatusLabel
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Label1 As Label
-    Friend WithEvents Label2 As Label
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents WebBrowser1 As WebBrowser
-    Friend WithEvents Button4 As Button
-    Friend WithEvents MenuStrip1 As MenuStrip
-    Friend WithEvents MainToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents InfoToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents VersionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents InfoToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents BugMeldenToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SucheNachUpdatesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents SchließenToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents ToolStripMenuItem2 As ToolStripSeparator
-    Friend WithEvents ToolStripMenuItem4 As ToolStripSeparator
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
+    Friend WithEvents PictureBox4 As PictureBox
+    Friend WithEvents PictureBox5 As PictureBox
+    Friend WithEvents PictureBox6 As PictureBox
+    Friend WithEvents PictureBox7 As PictureBox
+    Friend WithEvents PictureBox8 As PictureBox
+    Friend WithEvents LinkLabel1 As LinkLabel
 End Class

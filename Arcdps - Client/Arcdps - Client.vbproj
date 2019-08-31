@@ -166,6 +166,20 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="map-route.png.ico" />
+    <None Include="Resources\playH.jpg" />
+    <None Include="Resources\playN.jpg" />
+    <None Include="Resources\deleteN.jpg" />
+    <None Include="Resources\deleteH.jpg" />
+    <None Include="Resources\updateN.jpg" />
+    <None Include="Resources\updateH.jpg" />
+    <None Include="Resources\closeH.png" />
+    <None Include="Resources\close.png" />
+    <None Include="Resources\minH.png" />
+    <None Include="Resources\min.png" />
+    <None Include="Resources\installH.jpg" />
+    <None Include="Resources\installN.jpg" />
+    <None Include="Resources\select.png" />
+    <None Include="Resources\IBG.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6">
