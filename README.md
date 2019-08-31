@@ -1,5 +1,5 @@
 # Arcdps Client Guild-Wars-2
-Control Client for one Klick Install and Delete
+Control Client for one Klick Install, Update and Delete
 ArcDPS Tool BY: https://www.deltaconnected.com/arcdps/
 
 # Start
